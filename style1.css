@@ -175,7 +175,7 @@ padding: 0px;
   float: right;
   margin-top: 20px;
 }
-.services-data ul li{border: 1px solid #ddd; list-style: none; padding: 7px; border-left: 0px;}
+.services-data ul li{border: 1px solid #ddd; list-style: none; padding: 7px; border-left: 0px; color:#7f8c8d}
 .services-data ul li:hover{background-color: #f1f1f1;}
 
 .services-data1{
@@ -183,14 +183,14 @@ padding: 0px;
   float: right;
   margin-top: 20px;
 }
-.services-data1 ul li{border: 1px solid #ddd; list-style: none; padding: 7px; border-right: 0px;}
+.services-data1 ul li{border: 1px solid #ddd; list-style: none; padding: 7px; border-right: 0px; color:#7f8c8d}
 .services-data1 ul li:hover{background-color: #f1f1f1;}
-
-.slides {padding: 0;width: 609px;height: 420px;display: block;margin: 0 auto;position: relative;}
-.slides input { display: none; }
-
-.slide-container { display: block; }
-
+.text{margin-top: 40px;}
+.text p{font-size: 1rem; color:#7f8c8d;}
+.text p a{color: #3498db;}
+.text p a:hover{text-decoration: underline;}
+.txt2{margin-top: 30px;}
+.txt2 p{font-size: 1rem;color:#7f8c8d}
 
 .footer{ 
   width:100%;
