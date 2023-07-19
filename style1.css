@@ -276,7 +276,7 @@ padding: 0px;
    .social a:hover{color: #f00; transition: 0.2s; text-shadow: 1px 0px 10px rgb(20, 134, 241);   text-decoration: none;}
    .social i{padding: 0 8px; font-size: 20px; transition: 0.3s;}
      
-   .social  > .insta:hover{color:#962fbf;transform: scale(1.05);}
+   .social  > .insta:hover{color:#962fbf;}
    .social  > .twit:hover{color:#00acee;}
    .social  > .goog:hover{color:rgb(249, 187, 17)}
    .social  > .face:hover{color:#3b5998}
