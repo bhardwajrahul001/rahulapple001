@@ -14,10 +14,14 @@
 }
 nav ul{
   
-  height: 48px;
+  height: 55px;
   background: #000;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  right: 160;
+  left: 160;
+  z-index: 999;
 }
 nav ul {
   list-style: none;
@@ -37,6 +41,7 @@ nav ul li a {
 nav ul li a:hover {
   color: #f5f5f7;
 }
+nav ul .bi-apple:hover{color: #fff}
 
 .banner {
   width: 100%;
@@ -164,26 +169,12 @@ padding: 0px;
 .btn2{background-color: orange; padding:8px ; width:100%; border-radius: 20px;margin: 10px 0  ; text-align: center;}
 .btn2:hover{background-color: darkorange;transition: 0.1s;}
 
-.services h1{
-  text-align: center;
-  margin-top: 20px;  
-}
-
-
-.services-data{
-  width: 33.33%;
-  float: right;
-  margin-top: 20px;
-}
-.services-data ul li{border: 1px solid #ddd; list-style: none; padding: 7px; border-left: 0px; color:#7f8c8d}
+.services h1{text-align: center;margin-top: 20px;}
+.services-data{width: 33.33%;float: right;margin-top: 20px;}
+.services-data ul li{border: 1px solid #ddd; list-style: none; padding: 7px; border-left: 0px; color:#7f8c8d; font-size: .9rem; font-weight: bold;}
 .services-data ul li:hover{background-color: #f1f1f1;}
-
-.services-data1{
-  width: 33.33%;
-  float: right;
-  margin-top: 20px;
-}
-.services-data1 ul li{border: 1px solid #ddd; list-style: none; padding: 7px; border-right: 0px; color:#7f8c8d}
+.services-data1{width: 33.33%;float: right;margin-top: 20px;}
+.services-data1 ul li{border: 1px solid #ddd; list-style: none; padding: 7px; border-right: 0px; color:#7f8c8d; font-size: .9rem; font-weight: bold;}
 .services-data1 ul li:hover{background-color: #f1f1f1;}
 .text{margin-top: 40px;}
 .text p{font-size: 1rem; color:#7f8c8d;}
@@ -208,16 +199,13 @@ padding: 0px;
 .footer-detail p{
   font-size: .7rem;
 }
- 
-.footer-welcome p{font-size: .8rem;
-  padding: 10px;
-}
-
- .ftr{width: 20%; float: right; }
+.footer-welcome{margin-top: 20px;}
+.ftr{width: 20%; float: right; }
  .ftr ul{ text-align: left; padding-left: 10PX; }
 .footer-ul {  
   display: block;
   justify-content:center;
+  margin-top: 10px;
 }
 .footer-ul ul {
   list-style: none;
@@ -259,7 +247,7 @@ padding: 0px;
   width:100%;
   padding: 20px 0;
 }
-.footer-menuList p{font-size: .7rem; color:#7f8c8d; margin-bottom: 1  0px;}
+.footer-menuList p{font-size: .7rem; color:#7f8c8d; margin-bottom: 1  0px; margin-top: 20px;}
   .footer-menuList ul{ 
     margin:0;
     list-style: none;
@@ -284,5 +272,15 @@ padding: 0px;
     content:'';   
   
    }
+   .social a{text-decoration: overline; color: #fff;letter-spacing: 3px; transition: 0.2s; font-size: 22px;}
+   .social a:hover{color: #f00; transition: 0.2s; text-shadow: 1px 0px 10px rgb(20, 134, 241);   text-decoration: none;}
+   .social i{padding: 0 8px; font-size: 20px; transition: 0.3s;}
+     
+   .social  > .insta:hover{color:#962fbf;transform: scale(1.05);}
+   .social  > .twit:hover{color:#00acee;}
+   .social  > .goog:hover{color:rgb(249, 187, 17)}
+   .social  > .face:hover{color:#3b5998}
+   .social  > .tele:hover{color:#0088cc}
+
 
   .clear{clear:both}
